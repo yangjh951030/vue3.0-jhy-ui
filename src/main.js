@@ -9,3 +9,5 @@ app.use(router).use(message).mount('#app');
 
 console.log(app);
 app.config.globalProperties.$modalArr = [];
+
+console.log(import.meta.env);
